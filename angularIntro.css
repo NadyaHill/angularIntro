@@ -1,0 +1,34 @@
+/*body {
+	background: url("http://p1.pichost.me/i/23/1462518.jpg");
+}*/
+
+button {
+	background-color:ivory;
+	height: 100px;
+	width: 400px;
+	border-radius: 5px;
+	font-size: 25px;
+	font-family: blackjack;
+	display: block;
+	margin: auto;
+	margin-top: 75px;
+}
+
+button:hover{
+	color: pink;
+}
+
+h1 {
+	font-family: blackjack;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul{
+	font-family: blackjack;
+	font-size: 25px;
+	list-style-type: none;
+	text-align: center;
+	margin-top: 50px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="sakura">
+<head> 
+	<title>INTRO TO ANGULAR</title>
+	<link rel = "stylesheet type" = "text/css" href="angularIntro.css">
+	<script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js">
+	</script>
+	<script type="text/javascript" src="angularIntro.js"> </script>
+	<style>
+		body{
+			background-image: url("http://p1.pichost.me/i/23/1462518.jpg");
+		}
+	</style>
+</head>
+
+
+<body>
+	<div ng-controller="blossoms">
+		<button ng-click="pressMe()">press me</button>
+
+		<div>
+			<h1 ng-hide="hideWelcome">Welcome to Sakura Blossom!</h1>
+		</div>
+
+		<div>
+			<ul ng-hide="hideList">
+				<li>ichi</li>
+				<li>ni</li>
+				<li>san</li>
+			</ul>
+		</div>
+	</div>
+</body>
+
+
+
+</html>
+
